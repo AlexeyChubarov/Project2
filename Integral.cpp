@@ -10,7 +10,7 @@ double dIntegral(double(*func)(double x), double from, double to, double step)
 	double integral_summ, change;
 
 	integral_summ = 0.;
-	if ((int)(abs(to - from) / step) > INT_MAX)
+	if ((abs(to - from) / step) > INT_MAX)
 	{
 		return NAN;
 	}
