@@ -18,3 +18,8 @@ double SecMultiplyId(double x)
 {
 	return x / cos(x);
 }
+
+double SqareId(double x)
+{
+	return x * x;
+}
