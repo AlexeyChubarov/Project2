@@ -8,3 +8,4 @@ double SinDivideId(double x);
 
 double SecMultiplyId(double x);
 
+double SqareId(double x);
